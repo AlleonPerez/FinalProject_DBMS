@@ -7,7 +7,16 @@ CREATE TABLE Cashier(
 	INSERT INTO Cashier(CashierID,CashierName)
 	VALUES
 	
-	(1,'Jonah Bells');
+	(1,'Jonah Bells'),
+        (2,'Kian Patron'),
+        (3,'Cedy Palamigan'),
+        (4,'Angel Lourenz'),
+        (5,'Bon Latag'),
+        (6,'Drian Perce'),
+        (7,'Denver Solomon'),
+        (8,'Kc Magnetic'),
+        (9,'Jerome Canlas'),
+       (10,'Jc Delgado');
 	
 SELECT*FROM ViewCashier
 
@@ -25,7 +34,12 @@ VALUES
 	(100,'Wednesday', 300),
 	(150,'Thursday', 350),
 	(200,'Friday', 200),
-	(250,'Saturday', 99);
+	(250,'Saturday', 99),
+        (200,'Sunday', 200),
+        (150,'Monday', 350),
+        (100,'Tuesday', 300),
+        (150,'Wenesday', 350),
+        (200,'Thursday', 200);
 
 CREATE TABLE RecentClients(
     ClientAge INT NOT NULL,
@@ -42,7 +56,13 @@ VALUES
     (1,'Princess Dynamite','Lipa Batangas', 40),
     (2,'Cedrick Demdam','Alitagtag Batangas', 29),
     (3,'Lourenz Einstein','Rosario Batangas', 30),
-    (4,'Iris Robredo','Garcia Batangas', 57);
+    (4,'Iris Robredo','Garcia Batangas', 57),
+(5,'Kian Mae Solomon',')San Jose Batangas', 37),
+(6,'Von Cedric','Mataasnakahoy Batangas', 28),
+(7,'Jerome Lacerna','Garcia Batangas', 39),
+(8,'Sydney Johan','Garcia Batangas', 22),
+(9,'Keith Andrei','San Juan Batangas', 44),
+(10,'Denver Salazar','Rosario Batangas', 35);
 	
 CREATE TABLE Clients(
     ClientID INT NOT NULL,
@@ -56,7 +76,12 @@ VALUES
     (2,'Cedrick Demdam'),
     (3,'Lourenz Einstein'),
     (4,'Iris Robredo'),
-	(5, 'Kian Mae Solomon');
+    (5, 'Kian Mae Solomon'),
+    (6,'Adrian Maginoo'),
+    (7,'Ian Enrico'),
+    (8,'Jayvee Bathan'),
+    (9,'Shaine Inciong'),
+    (10,'Jumbo Inciong');
 	
 
 CREATE TABLE ViewReceipt(
